@@ -8,15 +8,17 @@ A couple of weeks ago I cleaned up (delete+reinstall) my Macbook. I didn't back-
 
 ## Tools
 
-Current coding tools that I use:
-
 ### Visual Studio Code
 
-You can get it [here](https://code.visualstudio.com/docs/editor/command-line)
+> Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is also customizable, so users can change the editor's theme, keyboard shortcuts, and preferences. It is free and open-source, although the official download is under a proprietary license.
+
+[source](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+
+You can get it right over [here](https://code.visualstudio.com/docs/editor/command-line).
 
 #### Theme
-* default theme
-* Seti file icons
+* Using the default theme
+* Using the seti file icons
 
 #### Plugins
 * ```$ code --install-extension ms-vscode.atom-keybindings```
@@ -27,15 +29,25 @@ You can get it [here](https://code.visualstudio.com/docs/editor/command-line)
 * ```$ code --install-extension akamud.vscode-javascript-snippet-pack```
 * ```$ code --install-extension dbaeumer.vscode-eslint```
 
-### Shell: oh-my-zsh
+### Shell: oh-my-zsh framework for zsh
 
-To install
+>Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout...
+
+Install
 
 ```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 #### Plugins
 * [Trash](https://github.com/sindresorhus/trash-cli)
 
+>In contrast to rm which is dangerous and permanently delete files, this only moves them to the trash, which is much safer and reversible. I would also recommend reading my guide on safeguarding rm.
+
   ```$ npm install --global trash-cli```
 
 * [Z](https://github.com/rupa/z/blob/master/z.sh)
+
+>Tracks your most used directories, based on 'frecency'.
+>
+>After  a  short  learning  phase, z will take you to the most 'frecent' directory that matches ALL of the regexes given on the command line, in order.
+>
+>For example, z foo bar would match /foo/bar but not /bar/foo.
