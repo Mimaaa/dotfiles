@@ -19,18 +19,23 @@ You can get it [here](https://code.visualstudio.com/docs/editor/command-line)
 * Seti file icons
 
 #### Plugins
-* Atom Keymap
-* Editorconfig
-* ESLint
-* GitLens
-* IntelliSense for CSS
-* JavaScript Snippets
-* stylelint
+* ```$ code --install-extension ms-vscode.atom-keybindings```
+* ```$ code --install-extension EditorConfig.EditorConfig```
+* ```$ code --install-extension shinnn.stylelint```
+* ```$ code --install-extension eamodio.gitlens```
+* ```$ code --install-extension Zignd.html-css-class-completion```
+* ```$ code --install-extension akamud.vscode-javascript-snippet-pack```
+* ```$ code --install-extension dbaeumer.vscode-eslint```
 
-### Oh-My-Zsh
+### Shell: oh-my-zsh
 
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+To install
+
+```$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 #### Plugins
 * [Trash](https://github.com/sindresorhus/trash-cli)
+
+  ```$ npm install --global trash-cli```
+
 * [Z](https://github.com/rupa/z/blob/master/z.sh)
