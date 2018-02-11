@@ -25,7 +25,7 @@ You can get it right over [here](https://code.visualstudio.com/docs/editor/comma
 * ```$ code --install-extension EditorConfig.EditorConfig```
 * ```$ code --install-extension shinnn.stylelint```
 * ```$ code --install-extension eamodio.gitlens```
-* ```$ code --install-extension Zignd.html-css-class-completion```
+* ```$ code --install-extension Zignd.html-css-class-completion``` !!!
 * ```$ code --install-extension akamud.vscode-javascript-snippet-pack```
 * ```$ code --install-extension dbaeumer.vscode-eslint```
 
